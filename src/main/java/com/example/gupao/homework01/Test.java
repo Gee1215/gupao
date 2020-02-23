@@ -6,7 +6,7 @@ import com.example.gupao.homework01.factory.PaymentFactory;
 public class Test {
     public static void main(String[] args) {
         PaymentFactory paymentFactory = new AliPayPaymentFactory();
-        paymentFactory.getPapmentFactory().insidePay();
-        paymentFactory.getPapmentFactory().outsidePay();
+        paymentFactory.getPaymentFactory().insidePay();
+        paymentFactory.getPaymentFactory().outsidePay();
     }
 }
